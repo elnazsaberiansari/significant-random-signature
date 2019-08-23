@@ -41,7 +41,7 @@ Computes the nominal and empirical p-vlaues for the subset of genes and writes i
 
 Inputs:
 
-- ACES dataset
+- [ACES dataset](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3870302/)
 - a file contatining EntrezID of ACESGenes
 - EntrezID of the subset of genes which we want to check if they can seperate the poor and good prognosis of patients
 - directory of output
