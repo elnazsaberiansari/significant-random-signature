@@ -8,7 +8,7 @@ This repository contain the code for the paper :
 
 ```empiricalpvalue.R```
 computes empirical pvalue for each signature "empiricalpvalue" file in output directory
-</p><h4>Inputs:<h4></p>
+<h4>Inputs:<h4>
 
 - [NKI dataset](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002240#s5)
 - dataset of 48 published signatures
