@@ -17,7 +17,7 @@ computes empirical pvalue for each signature "empiricalpvalue" file in output di
 
 ```randomSignatures.R```
 compute random signatures for each of the 48 published signatures in NKI dataset and writes their nominal and empirical pvalues in randomSignature_empiricalpvalue file in the ouput folder. It scores the genes that  appear in significant random signatures and writes the genes and their scores in significantRandomGenes file in output folder.
-<p><h4>Inputs:<h4></p>
+<p>Inputs:</p>
 
 - [NKI dataset](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002240#s5)
 - dataset of 48 published signatures
