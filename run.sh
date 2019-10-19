@@ -1,6 +1,5 @@
 #!/bin/bash
 
-## cd /run/media/esaberia/Elnaz/allprojects/SignificantRandomSignature/SignificantRandomSignature_2019
 ## go to the directory where the code folder and data folder is there
 
 cat $(pwd)/code/empiricalpvalue.R | R --slave --args $(pwd)/data/preprocessed-data.Rda $(pwd)/data/signatures.Rda $(pwd)/output
