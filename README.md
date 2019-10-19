@@ -27,12 +27,12 @@ Inputs:
 
 
 ```diffusion.R```
-Computes the diffusion score of the genes' score using [PPI network](https://we.tl/t-bLmPnAwgsa) and writes it in the "diffusionGeneScores.txt" in the output folder. Also computes the empirical p-values for diffusion scores and finds the significant genes which have an empirical p-value of less than 0.05, and writes them in the empiricalDS.txt and sigGenesDS.txt files in the output folder.
+Computes the diffusion score of the genes' score using [PPI network](https://string-db.org) and writes it in the "diffusionGeneScores.txt" in the output folder. Also computes the empirical p-values for diffusion scores and finds the significant genes and writes them in the "empiricalDS.txt" and "sigGenesDS.txt" files in the output folder.
 
 Inputs:
 
-- ensemble id of the genes and their corresponding scores which is the output of randomSignatures.R
-- PPI scores 
+- a file containing the ensemble id of the genes and a file containing their corresponding scores which are in the output file of randomSignatures.R
+- [PPI scores](https://string-db.org)
 - directory of output
 
 
@@ -41,8 +41,8 @@ Computes the nominal and empirical p-vlaues for the subset of genes and writes i
 
 Inputs:
 
-- [ACES dataset](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3870302/)
+- [ACES dataset (U133A_combat.h5)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3870302/)
 - a file contatining EntrezID of ACESGenes
-- EntrezID of the subset of genes which we want to check if they can seperate the poor and good prognosis of patients
+- a file containing EntrezID of the subset of genes that we want to check if they can seperate the poor and good prognosis of patients
 - directory of output
 
