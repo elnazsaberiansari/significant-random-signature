@@ -31,7 +31,7 @@ Computes the diffusion score of the genes' score using [PPI network](https://str
 
 Inputs:
 
-- a file containing the ensemble id of the genes and a file containing their corresponding scores which are in the output file of randomSignatures.R
+- files containing the ensemble id of the genes and their corresponding scores which are in represented in the output file of randomSignatures.R
 - [PPI scores](https://string-db.org)
 - directory of output
 
