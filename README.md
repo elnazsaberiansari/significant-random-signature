@@ -46,3 +46,6 @@ Inputs:
 - a file containing EntrezID of the subset of genes that we want to check if they can seperate the poor and good prognosis of patients
 - directory of output
 
+
+
+An additional dataset related to this analysis is also available at [IPM website](http://bs.ipm.ir/softwares/srs/). Ten breast cancer patients undergoing curative resection are included in this dataset. The expression of TAT (Tyrosine aminotransferase) in tumor, normal and cell lines are gathered in tat-2.xlsx file.
